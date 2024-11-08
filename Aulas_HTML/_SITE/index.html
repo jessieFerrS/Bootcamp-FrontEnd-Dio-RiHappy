@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+</head>
+<body>
+  <form onsubit="" name="signup" target="_blank" autocomplete="off" method="get"  action="https://meusite.com.br/signup">
+   <label for="">Nome:</label>  <input type="text" name="name"/><br>
+   <label for="">Idade:</label> <input type="number" name="age" min="0" max="100"/><br>
+   <label for="">Senha:</label> <input type="password" name="password"/><br>
+    <button type="submit">Enviar</button><br>
+    <label for="">Range:</label><input type="range" min="0" max="50"/><br>
+    <label for="">Color:</label><input type="color"/><br>
+    <label for="" name="borda">Radio:</label><input type="radio"/><br><!-- seleciona ou um ou outro o nome tem que ser igual-->
+    <label for="">checkbox:</label><input type="checkbox" name="opcional[]"><br><!--uma variavel com multiplos valores, servidor backend vai pegar apenas o ultimo -> para que todos sejam enviados para o servidor colocar na frente do nome [] isso avisa para o servidor que estou enviando uma lista de valores -->
+    <label for="">Email:</label><input type="email"/><br>
+    <input type="week"/><br>
+    <input type="date"/><br>
+    <input type="month"/><br>
+    <input type="datetime"/><br>
+    <input type="tel"/><br>
+    <input type="time"><br>
+    hidden:<input type="hidden"/><br><!--fica escondido -->
+    search:<input type="search"/><br>
+    <input type="file" multiple/><br><!--aceita selecionar o envio de varios arquivos-->
+    <button type="button">Clicavel</button><br>
+    <button type="reset">Limpar</button><br>
+
+    <p>Select:</p>
+    <label for="">cargo:</label>
+    <select name="role" id="">
+      <option value="">Selecione o cargo</option>
+      <option value="Admin">Admin</option>
+      <option value="gerente">gerente</option>
+      <option value="diretor">diretor</option>
+      <option value="presidente">presidente</option>
+    </select><br>
+    <p>TextArea</p>
+    <label for="">mensagem:</label><textarea rows="10" cols="50" name="" id=""></textarea>
+
+    
+  </form>
+</body>
+</html>
