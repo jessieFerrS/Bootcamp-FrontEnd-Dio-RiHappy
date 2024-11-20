@@ -1,0 +1,36 @@
+h1{
+  color: blueviolet;
+  background-color: lightgray;
+}
+
+/* combinador filho */
+#dentro-div > p {
+  color: blue;
+  background-color: lightblue;
+}
+
+/* combinador irmão adjacente */
+p + p {
+  font-weight: bold;
+  color: black;
+}
+
+/* combinador irmão geral */
+p ~ p {
+  font-size: large;
+  color: lightcoral;
+}
+
+button{
+  background: tomato;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.exemplo {
+  background-color: rgb(194, 38, 194);
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: thin;
+}
