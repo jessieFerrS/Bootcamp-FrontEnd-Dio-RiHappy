@@ -26,3 +26,11 @@ button{
   max-width: 200px;
   max-height: 200px;
 }
+
+.exemplo {
+  background-color: rgb(194, 38, 194);
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: thin;
+}
